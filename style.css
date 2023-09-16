@@ -46,11 +46,17 @@ footer{
 }
 
 @media only screen and (max-width: 1000px) {
-    .container{gap:250px;}
-    #highScores, #time, #btn{font-size: 4em;}
-    #scores{font-size: 6em;}
+    .container{
+        gap:250px;
+    }
+    #highScores, #time, #btn{
+        font-size: 2em;
+    }
+    #scores{
+        font-size: 3em;
+    }
     button{
         width: 100%;
-        padding: 50px;
+        padding: 10px;
     }
 }
