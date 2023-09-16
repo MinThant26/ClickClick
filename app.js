@@ -9,7 +9,12 @@ let totalScores = 0;
 let start = false;
 let timeSet;
 
-
+const audio = new Audio();
+const audioArry = [
+    "./audio/audio1.wav",
+    "./audio/audio2.wav",
+    "./audio/audio3.wav"
+];
 
 btn.addEventListener('click', function(){
     if(start === false){
@@ -21,7 +26,9 @@ btn.addEventListener('click', function(){
     if(totalTime !== 0){
         totalScores++;
         scores.textContent = totalScores;
+        audio.src = audioArry[2];
     }
+    audio.play();
 })
 
 function setup(){
