@@ -47,7 +47,7 @@ footer{
 
 @media only screen and (max-width: 1000px) {
     .container{
-        gap:250px;
+        gap:200px;
     }
     #highScores, #time, #btn{
         font-size: 2em;
@@ -57,6 +57,6 @@ footer{
     }
     button{
         width: 100%;
-        padding: 10px;
+        padding: 50px;
     }
 }
